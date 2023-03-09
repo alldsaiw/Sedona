@@ -60,6 +60,13 @@ text-decoration: none;
 
 }
 
+/* Advantages */
+
+.advantages-wrapper{
+    color: #fff;
+    background-color: #83B3D3;
+}
+
 .advantages-list {
     text-align: center;
 }
@@ -99,3 +106,44 @@ text-transform: uppercase;
 font-size: 18px;
 line-height: 21px;
 }
+
+/* Hotel search */
+
+.hotel-search {
+    text-align: center;
+}
+
+.hotel-search-header {
+    font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.hotel-search-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+color: #333333;
+
+}
+
+/* Subscription */
+
+.subscription {
+    background-image: url("../images/mail-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #fff;
+}
+
+.subscription-header{
+    text-transform: uppercase;
+}
+
+.subscr-button {
+    background-color: #83B3D3;
+}
+
+
