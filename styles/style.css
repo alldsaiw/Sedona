@@ -14,12 +14,25 @@
     font-display: swap;
 }
 
+html{
+    width: 1280px;
+    margin: auto;
+    height: 100%;
+}
+
 body {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
     background-color: #fff;
     color: #333333;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-container{
+    flex-grow: 1;
 }
 
 /* Buttons*/
@@ -37,10 +50,15 @@ body {
 
 /* Pages */
 
+/* Header */
+
 .nav-header {
     background-color: #fff;
     color: #000;
-
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 110px;
 }
 
 .nav-item-link {
@@ -60,15 +78,33 @@ body {
 
 }
 
+.main-header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text-wrapper {
+    width: 720px;
+}
+
 /* Advantages */
 
 .advantages-wrapper {
     color: #fff;
     background-color: #83B3D3;
 }
-
+.sightseeing{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 .advantages-list {
     text-align: center;
+}
+
+.advantages-item{
+    width: 400px;
 }
 
 .page-header {
@@ -107,10 +143,21 @@ body {
     line-height: 21px;
 }
 
+.town-advantages-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
 /* Hotel search */
 
 .hotel-search {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    width: 720px;
+    margin: auto;
 }
 
 .hotel-search-header {
@@ -136,6 +183,9 @@ body {
     background-repeat: no-repeat;
     background-size: 100% auto;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .subscription-header {
@@ -144,6 +194,31 @@ body {
 
 .subscr-button {
     background-color: #83B3D3;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+
+.footer-tel {
+    font-size: 40px;
+line-height: 40px;
+margin-left: 60px;
+width: 720px;
+text-align: center;
+}
+
+.footer-links {
+    width: 110px;
+    margin-left: 70px;
+}
+
+.footer-academy-link {
+    max-width: 115px;
+    margin-right: 72px;
+    margin-left: 53px;
 }
 
 /* Catalog */
