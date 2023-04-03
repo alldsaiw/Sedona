@@ -196,6 +196,8 @@ body {
     background-color: #83B3D3;
 }
 
+/* footer */
+
 .footer-wrapper {
     display: flex;
     flex-direction: row;
@@ -232,6 +234,20 @@ color: inherit;
     background-repeat: no-repeat;
     background-size: 100% auto;
     color: #fff;
+}
+
+.filter-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.checklist{
+    width: 150px;
+}
+
+.toggle-range {
+    width: 287px;
 }
 
 .catalog-main {
