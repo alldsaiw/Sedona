@@ -209,7 +209,7 @@
     <!--Pagination-->
     <section class="pagination">
         <ul class="pagination">
-            <li class="pagination-item">
+            <li class="pagination-item pagination-item-current">
               <a class="pagination-link pagination-current">1</a>
             </li>
             <li class="pagination-item">
@@ -229,7 +229,8 @@
               </li>
           </ul>
           <form class="hotels-counter">
-            <label for="count" class="hotels-counter-label">Гостиниц на странице:
+            <label for="count" class="hotels-counter-label">
+                <span class="hotes-counter-text">Гостиниц на странице:</span>
             <select name="hotels-counter-list" id="count">
                 <option value="4" class="counter-item">4</option>
             </select>
@@ -246,7 +247,7 @@
         честное бойскаутское!</span>
     <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
         <input type="text" name="subscription-form" placeholder="Ваш e-mail">
-        <button class="button-light">
+        <button class="button button-light">
             Подписаться
         </button>
     </form>
