@@ -232,6 +232,10 @@ body {
     color: #000;
 }
 
+.hotel-card-link {
+    text-decoration: none;
+}
+
 .hotel-name {
     font-weight: 700;
     font-size: 24px;
@@ -330,4 +334,16 @@ body {
     line-height: 26px;
     text-align: center;
     color: #333333;
+}
+
+/* Footer*/
+
+.footer-phone {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
 }
