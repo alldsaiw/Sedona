@@ -65,6 +65,7 @@ body {
     width: 345px;
     margin: 0;
     padding: 0;
+    margin-left: 30px;
 }
 
 .nav-menu-link {
@@ -233,7 +234,7 @@ body {
     flex-direction: column;
     width: 800px;
     margin: 0 auto;
-    justify-content: center;
+    align-items: center;
 }
 
 .subscription-content {
@@ -279,10 +280,40 @@ body {
 /* Filters */
 
 .filters {
+    display: flex;
+    flex-direction: column;
     background-image: url("/images/catalog-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     color: #fff;
+}
+
+.catalog-header-text{
+    margin: 0;
+    padding: 0;
+}
+
+.catalog-filter {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-items: space-between;
+}
+
+.filter-form {
+    width: 150px;
+    margin-right: 67px;
+}
+
+.filter-form-toggle {
+    width: 290px;
+    margin-left: 100px;
+}
+
+.form-button-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 81px;
 }
 
 .filter-name {
@@ -300,12 +331,38 @@ body {
 
 /* Search Results */
 
+.sorting{
+    display: flex;
+    width: 1057px;    
+    justify-content: space-between;
+
+}
+
+.catalog-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 1056px;
+    margin: 0 auto;
+
+}
+
 .search-result {
+    display: block;
+    width: 50%;
     font-weight: 700;
     font-size: 30px;
     line-height: 39px;
     text-transform: uppercase;
     color: #000;
+}
+
+.catalog-select {
+    width: 287px;
+    margin-right: auto;
+  }
+
+.display-buttons-list{
+    width: 160px;
 }
 
 .hotel-card-link {
@@ -368,6 +425,18 @@ body {
 
 /* Pagination */
 
+.pagination {
+    display: flex;
+    width: 1056px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.pagination-list{
+    display: flex;
+    margin-right: auto;
+}
+
 .pagination-link {
     color: #fff;
     text-decoration: none;
@@ -388,11 +457,25 @@ body {
     color: #000;
 }
 
+.hoters-counter{
+    width: 386px;
+    margin-left: auto;
+}
 .hotels-counter-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     color: #333333;
+}
+
+/* Catalog subscription */
+
+.catalog-subscription-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .catalog-subscription-header {
