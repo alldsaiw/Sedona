@@ -14,7 +14,15 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
@@ -43,12 +51,33 @@ body {
     color: #000;
 }
 
+.page-nav {
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    margin-right: 30px;
+}
+
+.nav-menu {
+    width: 345px;
+    margin: 0;
+    padding: 0;
+}
+
 .nav-menu-link {
     color: #000;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
     text-decoration: none;
+}
+
+.user-menu {
+    max-width: 265px;
+    margin-left: auto;
 }
 
 .main-page-header {
@@ -74,8 +103,30 @@ body {
     font-size: 22px;
     line-height: 36px;
 }
+/* Main */
+
+.main-container {
+    flex-grow: 1;
+}
+
+.page-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sedona-logo{
+    display: block;
+    margin: 0 auto;
+}
 
 /* Advantages */
+
+.advantages-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
 
 .bg-blue {
     background-color: #83B3D3;
@@ -96,8 +147,12 @@ body {
     background-color: #fff;
     color: #000;
 }
-
+.advantages-item-big{
+    width: 1200px;
+    text-align: center;
+}
 .advantages-item {
+    width: 400px;
     text-align: center;
 }
 
@@ -132,6 +187,19 @@ body {
 
 /* Hotel Search */
 
+.hotel-search {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-search-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 .hotel-search-content {
     text-align: center;
 }
@@ -158,6 +226,14 @@ body {
     background-repeat: no-repeat;
     background-size: 100% auto;
     text-align: center;
+}
+
+.subscription-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .subscription-content {
@@ -338,7 +414,19 @@ body {
 
 /* Footer*/
 
+.footer-wrapper {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-socials {
+    width: 109px;
+    margin-right: 60px;
+}
+
 .footer-phone {
+    width: 720px;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
@@ -346,4 +434,10 @@ body {
     text-transform: uppercase;
     color: #000;
     text-decoration: none;
+}
+
+.about-text{
+    margin-left: auto;
+    width: 115px;
+    margin-right: 72px;
 }
