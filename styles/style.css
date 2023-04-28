@@ -74,23 +74,38 @@ body {
 }
 
 .nav-menu {
+    display: flex;
+    flex-wrap: wrap;
     width: 345px;
     margin: 0;
     padding: 0;
     margin-left: 30px;
 }
 
+.nav-menu-item {
+    list-style-type: none;
+}
+
 .nav-menu-link {
+    display: block;
     color: #000;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
     text-decoration: none;
+    padding: 20px 17px;
 }
 
 .user-menu {
     max-width: 265px;
     margin-left: auto;
+    display: flex;
+    list-style-type: none;
+}
+
+.user-menu-item {
+    width: 42px;
+    height: 66px;
 }
 
 .main-page-header {
