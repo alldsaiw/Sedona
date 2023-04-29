@@ -61,6 +61,9 @@ body {
 .main-header {
     background-color: #fff;
     color: #000;
+    height: 70px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .page-nav {
@@ -103,12 +106,22 @@ body {
     list-style-type: none;
 }
 
-.user-menu-item {
+.user-menu-item .user-menu-button {
+    display: block;
     width: 42px;
     height: 66px;
 }
 
+.button-want-here{
+    display: block;
+    width: 160px;
+    margin-right: 70px;
+}
+
 .main-page-header {
+    padding-top: 52px;
+    padding-bottom: 83px;
+    margin: 0;
     background-color: #fff;
     color: #000;
     background-image: url("/images/index-background.jpg");
@@ -117,7 +130,9 @@ body {
 }
 
 .text-intro {
+    width: 720px;
     text-align: center;
+    align-self: center;
 }
 
 .intro-header {
@@ -148,6 +163,12 @@ body {
 }
 
 /* Advantages */
+
+.advantages{
+    display: flex;
+    flex-direction: column;
+
+}
 
 .advantages-list {
     margin: 0;
